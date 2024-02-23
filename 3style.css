@@ -4,10 +4,11 @@
     box-sizing: border-box;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
-body{
+@media ( min-width: 319px) and (max-width:480px) {
+    body{
     background:#eaeaea;
 }
-
+}
 .header{
     position:fixed;
     top:0;
